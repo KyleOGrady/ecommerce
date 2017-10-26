@@ -7,3 +7,12 @@ body{
 	
 }
 
+.navbar-header{
+	height: 160px;
+}
+
+.navbar-header>img{
+	
+	transform: translateY(-300%);
+	
+}
