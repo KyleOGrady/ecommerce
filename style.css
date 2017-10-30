@@ -2,9 +2,27 @@
 /* CSS Document */
 
 body{
+	margin: 0 auto;
+	width: 80%;
 	
 	
-	
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 1;
+	font-size: 20px;
+}
+
+.navtest{
+
+	background-color: #229922;
+
+}
+
+.november{
+	margin: 0 auto;
 }
 
 .navbar-header{
@@ -15,4 +33,8 @@ body{
 	
 	transform: translateY(-300%);
 	
+}
+
+.nav-edit{
+	padding-top: 30px;
 }
