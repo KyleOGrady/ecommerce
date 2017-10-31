@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* http://www.prepbootstrap.com/bootstrap-template/bootstrap-navbar-cart-dropdown-menu */
+
 body{
 	margin: 0 auto;
 }
@@ -10,6 +12,10 @@ nav{
 	top: 0;
 	left: 1;
 	font-size: 20px;
+}
+
+.content {
+    vertical-align: center;
 }
 
 .navtest{
