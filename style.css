@@ -26,6 +26,7 @@ nav{
 
 .november{
 	margin: 0 auto;
+
 }
 
 .navbar-header{
@@ -39,5 +40,18 @@ nav{
 }
 
 .nav-edit{
-	padding-top: 30px;
+	font-size: 120%;
+	margin-top: -6%;
+	margin-bottom: -7%;
+	
+}
+
+.cart{
+	text-align: right;
+	margin-top: -4%;
+	margin-bottom: 2%;
+}
+
+.search-bar{
+	
 }
