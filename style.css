@@ -43,7 +43,6 @@ nav{
 	font-size: 120%;
 	margin-top: -6%;
 	margin-bottom: -7%;
-	
 }
 
 .cart{
@@ -54,4 +53,8 @@ nav{
 
 .search-bar{
 	
+}
+
+.top_buffer{
+	margin-top: 8vw;
 }
