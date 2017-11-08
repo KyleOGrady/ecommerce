@@ -56,5 +56,18 @@ nav{
 }
 
 .top_buffer{
-	margin-top: 8vw;
+	margin-top: 6vw;
+}
+
+.top-buffer-big{
+	margin-top: 4vw;
+}
+
+.icons{
+	text-align: center;
+	font-size: 330%;
+}
+
+.copyright{
+	text-align: center;
 }
