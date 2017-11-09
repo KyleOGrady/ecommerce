@@ -2,9 +2,11 @@
 /* CSS Document */
 
 /* http://www.prepbootstrap.com/bootstrap-template/bootstrap-navbar-cart-dropdown-menu */
+/* https://i.pinimg.com/originals/30/7e/d5/307ed5db6ba718fc4d4b48be80e12f08.jpg */
 
 body{
 	margin: 0 auto;
+	background-color: #C5B480;
 }
 
 nav{
@@ -12,16 +14,11 @@ nav{
 	top: 0;
 	left: 1;
 	font-size: 20px;
+	width: 100%;
 }
 
 .content {
     vertical-align: bottom;
-}
-
-.navtest{
-
-	background-color: #229922;
-
 }
 
 .november{
@@ -45,6 +42,15 @@ nav{
 	margin-bottom: -7%;
 }
 
+.pills-style{
+	color: #231F20;
+	font-family: 'Righteous';
+}
+
+.pills-style:hover{
+	color: #C5B480;
+}
+
 .cart{
 	text-align: right;
 	margin-top: -4%;
@@ -66,8 +72,14 @@ nav{
 .icons{
 	text-align: center;
 	font-size: 330%;
+	color: #231F20
 }
 
 .copyright{
 	text-align: center;
+	color: #231F20;
+}
+
+.footer-style{
+	background-color: #EAEAEA;
 }
