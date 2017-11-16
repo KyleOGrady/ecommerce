@@ -5,9 +5,21 @@
 /* https://i.pinimg.com/originals/30/7e/d5/307ed5db6ba718fc4d4b48be80e12f08.jpg */
 
 body{
-	margin: 0 auto;
-	background-color: #C5B480;
+	margin: 0;
+	background-color: #C6AAAA;
 }
+
+/**********************************Sizing******************************************/
+.top-buffer{
+	margin-top: 6vw;
+}
+
+.top-buffer-big{
+	margin-top: 4vw;
+}
+
+
+/******************************************Navbar**************************************************/
 
 nav{
 	position: fixed;
@@ -18,7 +30,7 @@ nav{
 }
 
 .content {
-    vertical-align: bottom;
+    vertical-align: center;
 }
 
 .november{
@@ -36,6 +48,10 @@ nav{
 	
 }
 
+.navbar{
+	margin-bottom:0;
+}
+
 .nav-edit{
 	font-size: 120%;
 	margin-top: -6%;
@@ -44,11 +60,11 @@ nav{
 
 .pills-style{
 	color: #231F20;
-	font-family: 'Righteous';
+	font-family: 'Righteous', sans-serif;
 }
 
 .pills-style:hover{
-	color: #C5B480;
+	color: #D46A6A;
 }
 
 .cart{
@@ -61,26 +77,66 @@ nav{
 	
 }
 
-.top_buffer{
-	margin-top: 6vw;
+/***************************************************Carousel*************************************************************/
+
+.pic-resize{
+	height: 400px;
 }
 
-.top-buffer-big{
-	margin-top: 4vw;
+.carousel-caption{
+	background-color: rgba(88, 88, 88, 0.5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left: 40%;
+	right: 40%;
 }
 
+
+/********************************************* Deals *************************************************************/
+
+.deal-border { 
+   border:2px solid #021a40;
+}
+
+/*******************************************************Footer **********************************************/
 .icons{
 	text-align: center;
 	font-size: 330%;
-	color: #231F20
+	color: white;
+}
+
+.icons i:hover{
+	color: #290200;
+}
+
+.icons a{
+	color:white;
+}
+
+.icon-spacing{
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .copyright{
 	text-align: center;
-	color: #231F20;
+	color: white;
+	padding-bottom: .5%;
+	font-family: 'Righteous', sans-serif;
 }
 
 .footer-style{
-	background-color: #EAEAEA;
+	background-color: #560000;
 	width: 100%;
+	font-color: white;
 }
+
+.footer-style .top-buffer-big{
+	margin-top: 6vw;
+}
+
+.footer-style .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
