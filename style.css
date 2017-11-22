@@ -43,9 +43,7 @@ nav{
 }
 
 .navbar-header>img{
-	
 	transform: translateY(-300%);
-	
 }
 
 .navbar{
@@ -77,6 +75,11 @@ nav{
 	
 }
 
+@media (min-width: 992px){
+	.col-md-4 {
+	    width: auto;
+	}
+}
 /***************************************************Carousel*************************************************************/
 
 .pic-resize{
@@ -140,3 +143,13 @@ nav{
 	margin-right: 0;
 }
 
+/*************************Electric*********************************/
+
+.display-3, .lead {
+	font-family: 'Lato';
+	color:white;
+}
+
+.jumbotron{
+	background-image: url("images/shop-electric.jpg");
+}
