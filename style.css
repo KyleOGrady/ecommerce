@@ -143,13 +143,39 @@ nav{
 	margin-right: 0;
 }
 
-/*************************Electric*********************************/
-
-.display-3, .lead {
-	font-family: 'Lato';
-	color:white;
+/****************************Shop page jumbotron styles*************************************/
+.lead {
+	font-family:'Lato';
+	color:black;
 }
 
-.jumbotron{
-	background-image: url("images/shop-electric.jpg");
+.display-3 {
+	font-family: 'Righteous', 'Lato';
+	color:black;
+}
+
+/*************************Backgrounds for jumbotrons*********************************/
+
+.electric{
+	background-image: url("images/shop-electric-fade.jpg");
+}
+
+.acoustic{
+	background-image: url("images/shop-acoustic-fade.jpg");
+	background-size: cover;
+}
+
+.bass{
+	background-image: url("images/shop-bass-fade.jpg");
+	background-size: cover;
+}
+
+.amplifiers{
+	background-image: url("images/shop-amps-fade.jpg");
+	background-size: cover;
+}
+
+.accessories{
+	background-image: url("images/shop-accessories-fade.jpg");
+	background-size: cover;
 }
