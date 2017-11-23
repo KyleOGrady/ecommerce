@@ -179,3 +179,22 @@ nav{
 	background-image: url("images/shop-accessories-fade.jpg");
 	background-size: cover;
 }
+
+/*******************************Styles for products*************************************/
+
+.card-title{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+}
+
+.card-text{
+	font-family: 'Lato', sans-serif;
+}
+
+.btn-primary{
+    background:#AA3939;
+}
+
+.btn-primary:hover{
+    background:#560000;
+}
